@@ -93,9 +93,9 @@ The right architecture is a **unified message pipeline** — all messages flow t
     content: `
 **StarkBot is the last interface you'll ever need** — a single AI agent that lives across every platform you use, remembers everything, and actually *does things* on your behalf.
 
-Tell it what you need in plain language. It posts to X, manages your Discord, answers your Telegram, schedules your calendar, takes your notes, moves your money, deploys your code — **all from one conversation**. No dashboards. No logins. No UIs to learn. Just you and an agent that gets better at being *your* agent every single day.
+Tell your Stark what you need in plain language. It posts to X, manages your Discord, answers your Telegram, schedules your calendar, takes your notes, moves your money, deploys your code — **all from one conversation**. No dashboards. No logins. No UIs to learn. Just you and an agent that gets better at being *your* agent every single day.
 
-This isn't a demo. It isn't a waitlist. StarkBot is live, it's free to try, and the inference costs you nothing. **[Get started now at starkbot.cloud](https://starkbot.cloud)** — connect your first platform in under a minute and feel what it's like when your entire digital life starts working *for* you instead of the other way around.
+**[Get started now at starkbot.cloud](https://starkbot.cloud)** — connect your first platform in under a minute and feel what it's like when your entire digital life starts working *for* you instead of the other way around.
 `
   },
   {
