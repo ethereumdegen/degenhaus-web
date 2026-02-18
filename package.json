@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite --port 8080",
     "server": "npx ts-node server.mjs",
+    "build": "NODE_OPTIONS=--max-old-space-size=4096 vite build",
     "build-dev": "NODE_OPTIONS=--max-old-space-size=4096 NODE_ENV=development vite build",
     "build-prod": "NODE_OPTIONS=--max-old-space-size=4096 NODE_ENV=production vite build",
     "preview": "vite preview"
