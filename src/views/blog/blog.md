@@ -1,8 +1,8 @@
-# Indie Game Developer's Blog: Building "Healing Spirit" with Rust and Bevy
+# DegenHaus Blog: Building "Healing Spirit" with Rust and Bevy
 
-Welcome to my blog, where I share my journey as an indie game developer building an open-world story RPG called "Healing Spirit" using Rust and the Bevy game engine. In this blog, I'll be sharing insights, tutorials, and code snippets from my development process.
+Welcome to the DegenHaus blog, where we share our journey building an open-world story RPG called "Healing Spirit" using Rust and the Bevy game engine. In this blog, we'll be sharing insights, tutorials, and code snippets from our development process.
 
-As an indie developer, I believe in the power of sharing knowledge and resources with the community. Through these blog posts, I aim to provide valuable information and code examples that can help fellow game developers in their own projects.
+At DegenHaus, we believe in the power of sharing knowledge and resources with the community. Through these blog posts, we aim to provide valuable information and code examples that can help fellow developers in their own projects.
 
 ## About "Healing Spirit"
 

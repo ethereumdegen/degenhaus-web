@@ -29,7 +29,7 @@ function Home() {
           <section className="py-16 hidden">
             <h2 className="text-3xl font-bold mb-4">About Us</h2>
             <p className="mb-4">
-              We are a passionate team of indie game developers dedicated to crafting unique and engaging gaming experiences.
+              We are DegenHaus — a collective dedicated to building in the agent economy.
             </p>
             <p>
               Our mission is to push the boundaries of creativity and deliver games that captivate players from all around the world.

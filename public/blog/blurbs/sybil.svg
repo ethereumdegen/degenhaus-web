@@ -1,28 +1,71 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
   <rect width="200" height="200" rx="16" fill="#0f172a"/>
-  <!-- Shield -->
-  <path d="M100 35 L145 58 L145 105 C145 138 122 160 100 170 C78 160 55 138 55 105 L55 58 Z" fill="#f59e0b" opacity="0.1" stroke="#f59e0b" stroke-width="2.5"/>
-  <!-- Shield checkmark -->
-  <polyline points="85,100 95,112 118,85" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Blocked node top-left -->
-  <circle cx="38" cy="45" r="10" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.5"/>
-  <line x1="31" y1="38" x2="45" y2="52" stroke="#ef4444" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
-  <line x1="45" y1="38" x2="31" y2="52" stroke="#ef4444" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
-  <!-- Blocked node top-right -->
-  <circle cx="162" cy="45" r="10" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.5"/>
-  <line x1="155" y1="38" x2="169" y2="52" stroke="#ef4444" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
-  <line x1="169" y1="38" x2="155" y2="52" stroke="#ef4444" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
-  <!-- Blocked node bottom-left -->
-  <circle cx="35" cy="155" r="10" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.5"/>
-  <line x1="28" y1="148" x2="42" y2="162" stroke="#ef4444" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
-  <line x1="42" y1="148" x2="28" y2="162" stroke="#ef4444" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
-  <!-- Blocked node bottom-right -->
-  <circle cx="165" cy="155" r="10" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.5"/>
-  <line x1="158" y1="148" x2="172" y2="162" stroke="#ef4444" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
-  <line x1="172" y1="148" x2="158" y2="162" stroke="#ef4444" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
-  <!-- Connection lines (blocked) -->
-  <line x1="48" y1="52" x2="70" y2="72" stroke="#f59e0b" stroke-width="1" opacity="0.2" stroke-dasharray="4,4"/>
-  <line x1="152" y1="52" x2="130" y2="72" stroke="#f59e0b" stroke-width="1" opacity="0.2" stroke-dasharray="4,4"/>
-  <line x1="45" y1="148" x2="70" y2="130" stroke="#f59e0b" stroke-width="1" opacity="0.2" stroke-dasharray="4,4"/>
-  <line x1="155" y1="148" x2="130" y2="130" stroke="#f59e0b" stroke-width="1" opacity="0.2" stroke-dasharray="4,4"/>
+
+  <!-- Swarm of sybil dots / virus particles -->
+  <!-- Hostile cluster top-left -->
+  <circle cx="30" cy="28" r="4" fill="#ef4444" opacity="0.6"/>
+  <circle cx="42" cy="22" r="3" fill="#ef4444" opacity="0.5"/>
+  <circle cx="22" cy="38" r="3.5" fill="#ef4444" opacity="0.45"/>
+  <circle cx="50" cy="32" r="2.5" fill="#ef4444" opacity="0.55"/>
+  <circle cx="36" cy="42" r="3" fill="#ef4444" opacity="0.4"/>
+  <circle cx="18" cy="24" r="2" fill="#ef4444" opacity="0.5"/>
+  <circle cx="46" cy="18" r="2" fill="#ef4444" opacity="0.35"/>
+
+  <!-- Hostile cluster top-right -->
+  <circle cx="168" cy="30" r="4" fill="#ef4444" opacity="0.6"/>
+  <circle cx="155" cy="24" r="3" fill="#ef4444" opacity="0.5"/>
+  <circle cx="178" cy="40" r="3.5" fill="#ef4444" opacity="0.45"/>
+  <circle cx="148" cy="36" r="2.5" fill="#ef4444" opacity="0.55"/>
+  <circle cx="162" cy="44" r="3" fill="#ef4444" opacity="0.4"/>
+  <circle cx="182" cy="26" r="2" fill="#ef4444" opacity="0.5"/>
+  <circle cx="172" cy="16" r="2" fill="#ef4444" opacity="0.35"/>
+
+  <!-- Hostile cluster bottom-left -->
+  <circle cx="28" cy="168" r="4" fill="#ef4444" opacity="0.6"/>
+  <circle cx="40" cy="175" r="3" fill="#ef4444" opacity="0.5"/>
+  <circle cx="20" cy="158" r="3.5" fill="#ef4444" opacity="0.45"/>
+  <circle cx="48" cy="162" r="2.5" fill="#ef4444" opacity="0.55"/>
+  <circle cx="34" cy="180" r="3" fill="#ef4444" opacity="0.4"/>
+  <circle cx="16" cy="172" r="2" fill="#ef4444" opacity="0.5"/>
+
+  <!-- Hostile cluster bottom-right -->
+  <circle cx="170" cy="170" r="4" fill="#ef4444" opacity="0.6"/>
+  <circle cx="158" cy="176" r="3" fill="#ef4444" opacity="0.5"/>
+  <circle cx="180" cy="160" r="3.5" fill="#ef4444" opacity="0.45"/>
+  <circle cx="150" cy="164" r="2.5" fill="#ef4444" opacity="0.55"/>
+  <circle cx="164" cy="182" r="3" fill="#ef4444" opacity="0.4"/>
+  <circle cx="184" cy="174" r="2" fill="#ef4444" opacity="0.5"/>
+
+  <!-- Scattered hostile dots everywhere -->
+  <circle cx="80" cy="18" r="2" fill="#ef4444" opacity="0.3"/>
+  <circle cx="120" cy="14" r="2.5" fill="#ef4444" opacity="0.3"/>
+  <circle cx="14" cy="90" r="2" fill="#ef4444" opacity="0.3"/>
+  <circle cx="186" cy="100" r="2.5" fill="#ef4444" opacity="0.3"/>
+  <circle cx="12" cy="120" r="2" fill="#ef4444" opacity="0.25"/>
+  <circle cx="188" cy="80" r="2" fill="#ef4444" opacity="0.25"/>
+  <circle cx="90" cy="186" r="2" fill="#ef4444" opacity="0.3"/>
+  <circle cx="110" cy="190" r="2.5" fill="#ef4444" opacity="0.3"/>
+  <circle cx="70" cy="50" r="2" fill="#ef4444" opacity="0.2"/>
+  <circle cx="130" cy="48" r="2" fill="#ef4444" opacity="0.2"/>
+  <circle cx="68" cy="152" r="2" fill="#ef4444" opacity="0.2"/>
+  <circle cx="132" cy="150" r="2" fill="#ef4444" opacity="0.2"/>
+
+  <!-- Central verified node — the real one -->
+  <circle cx="100" cy="100" r="18" fill="#f59e0b" opacity="0.12" stroke="#f59e0b" stroke-width="2"/>
+
+  <!-- Inner ring of trusted nodes -->
+  <circle cx="72" cy="80" r="5" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" stroke-width="1"/>
+  <circle cx="128" cy="80" r="5" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" stroke-width="1"/>
+  <circle cx="72" cy="120" r="5" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" stroke-width="1"/>
+  <circle cx="128" cy="120" r="5" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" stroke-width="1"/>
+  <circle cx="100" cy="68" r="4" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" stroke-width="1"/>
+  <circle cx="100" cy="132" r="4" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" stroke-width="1"/>
+
+  <!-- Trust connections -->
+  <line x1="82" y1="85" x2="77" y2="82" stroke="#f59e0b" stroke-width="0.8" opacity="0.25"/>
+  <line x1="118" y1="85" x2="123" y2="82" stroke="#f59e0b" stroke-width="0.8" opacity="0.25"/>
+  <line x1="82" y1="115" x2="77" y2="118" stroke="#f59e0b" stroke-width="0.8" opacity="0.25"/>
+  <line x1="118" y1="115" x2="123" y2="118" stroke="#f59e0b" stroke-width="0.8" opacity="0.25"/>
+  <line x1="100" y1="82" x2="100" y2="72" stroke="#f59e0b" stroke-width="0.8" opacity="0.25"/>
+  <line x1="100" y1="118" x2="100" y2="128" stroke="#f59e0b" stroke-width="0.8" opacity="0.25"/>
 </svg>

@@ -85,6 +85,7 @@ module.exports = {
       },
       fontFamily: {
         roboto: ["Roboto"],
+        "space-grotesk": ["'Space Grotesk'", "sans-serif"],
       },
       container: {
         center: true,

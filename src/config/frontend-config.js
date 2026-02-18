@@ -5,7 +5,7 @@ import favicon from '@/assets/images/favicon.png'
 import punkicon from '@/assets/images/punk1164.png'
 
 const config = {
-    title: ' Doodlebuilt: Indie Games',
+    title: 'DegenHaus',
     tagline: '',
     url: 'https://ethereumdegen,com',
     baseURL: '/',
@@ -62,13 +62,13 @@ const config = {
            
 
               {
-                label: 'Indie DB',
-                href: 'https://www.indiedb.com/games/broken-spirit',
+                label: 'DegenHaus',
+                href: 'https://degenhaus.com',
               },
 
               {
                 label: 'Support & Donate',
-                href: 'https://ko-fi.com/doodlebuilt',
+                href: 'https://ko-fi.com/degenhaus',
               },
 
             
@@ -89,7 +89,7 @@ const config = {
   
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/doodlebuilt',
+                href: 'https://twitter.com/deaborgin',
               },
 
              

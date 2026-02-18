@@ -80,7 +80,7 @@ function HeroBackground() {
       anime({
         targets: colChars,
         opacity: [0.05, 0.6, 0.05],
-        color: ['#3b82f6', '#60a5fa', '#3b82f6'],
+        color: ['#555555', '#888888', '#555555'],
         duration: 1200,
         delay: anime.stagger(60),
         easing: 'easeOutExpo',
@@ -111,8 +111,8 @@ function HeroBackground() {
         if (dist < 0.18) {
           const intensity = 1 - dist / 0.18;
           span.style.opacity = Math.min(0.9, intensity * 0.9);
-          span.style.color = `rgba(96, 165, 250, ${intensity})`;
-          span.style.textShadow = `0 0 ${intensity * 8}px rgba(59, 130, 246, ${intensity * 0.8})`;
+          span.style.color = `rgba(200, 200, 200, ${intensity})`;
+          span.style.textShadow = `0 0 ${intensity * 8}px rgba(180, 180, 180, ${intensity * 0.6})`;
           span.style.transform = `translate(-50%, -50%) scale(${1 + intensity * 0.6})`;
         } else {
           span.style.textShadow = 'none';

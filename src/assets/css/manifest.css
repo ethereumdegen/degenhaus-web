@@ -39,7 +39,7 @@
   position: absolute;
   font-family: 'Geist Mono', 'SF Mono', 'Fira Code', monospace;
   font-size: 14px;
-  color: #3b82f6;
+  color: #555555;
   opacity: 0.04;
   transform: translate(-50%, -50%);
   transition: color 0.15s, text-shadow 0.15s, transform 0.2s;
@@ -48,8 +48,9 @@
 }
 
 .manifest-hero-title {
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 3.5rem;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.1;
   color: #f5f5f5;
   margin: 0 0 1.5rem;
@@ -139,6 +140,7 @@
 }
 
 .manifest-section-title {
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 1.75rem;
   font-weight: 700;
   color: #e5e5e5;
