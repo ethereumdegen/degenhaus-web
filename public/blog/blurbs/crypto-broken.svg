@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="16" fill="#0f172a"/>
+  <!-- Coin -->
+  <circle cx="70" cy="70" r="36" fill="none" stroke="#ef4444" stroke-width="2.5"/>
+  <circle cx="70" cy="70" r="30" fill="none" stroke="#ef4444" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="70" cy="70" r="28" fill="#ef4444" opacity="0.06"/>
+  <!-- Dollar sign on coin -->
+  <text x="70" y="78" text-anchor="middle" font-family="monospace" font-size="28" font-weight="bold" fill="#ef4444" opacity="0.6">$</text>
+  <!-- Crack through coin -->
+  <path d="M55 48 L62 62 L56 75 L65 88" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Chart going down -->
+  <polyline points="30,125 50,122 65,128 80,135 100,148 120,158 140,165 160,172 175,178" fill="none" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Red fill under chart -->
+  <polygon points="30,125 50,122 65,128 80,135 100,148 120,158 140,165 160,172 175,178 175,190 30,190" fill="#ef4444" opacity="0.08"/>
+  <!-- Chart grid lines -->
+  <line x1="30" y1="135" x2="175" y2="135" stroke="#ef4444" stroke-width="0.5" opacity="0.15"/>
+  <line x1="30" y1="155" x2="175" y2="155" stroke="#ef4444" stroke-width="0.5" opacity="0.15"/>
+  <line x1="30" y1="175" x2="175" y2="175" stroke="#ef4444" stroke-width="0.5" opacity="0.15"/>
+  <!-- Down arrows -->
+  <path d="M145 60 L145 95 L138 85 M145 95 L152 85" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+  <path d="M165 45 L165 80 L158 70 M165 80 L172 70" fill="none" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+</svg>

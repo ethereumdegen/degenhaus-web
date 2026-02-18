@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="16" fill="#0f172a"/>
+  <!-- Brain outline (simplified) -->
+  <path d="M88 65 C72 65 62 78 62 92 C62 98 64 103 68 107 C64 112 62 118 62 124 C62 138 74 148 88 148 L90 148" fill="none" stroke="#8b5cf6" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M112 65 C128 65 138 78 138 92 C138 98 136 103 132 107 C136 112 138 118 138 124 C138 138 126 148 112 148 L110 148" fill="none" stroke="#8b5cf6" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M90 148 C90 148 90 65 90 65" fill="none" stroke="#8b5cf6" stroke-width="1" opacity="0.3"/>
+  <path d="M110 148 C110 148 110 65 110 65" fill="none" stroke="#8b5cf6" stroke-width="1" opacity="0.3"/>
+  <!-- Top connection -->
+  <path d="M88 65 C88 55 100 50 100 50 C100 50 112 55 112 65" fill="none" stroke="#8b5cf6" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Bottom connection -->
+  <path d="M90 148 C95 148 100 145 100 145 C100 145 105 148 110 148" fill="none" stroke="#8b5cf6" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Neural nodes -->
+  <circle cx="80" cy="85" r="4" fill="#8b5cf6"/>
+  <circle cx="120" cy="85" r="4" fill="#8b5cf6"/>
+  <circle cx="100" cy="75" r="4" fill="#8b5cf6"/>
+  <circle cx="90" cy="105" r="4" fill="#ffffff" opacity="0.9"/>
+  <circle cx="110" cy="105" r="4" fill="#ffffff" opacity="0.9"/>
+  <circle cx="100" cy="125" r="4" fill="#8b5cf6"/>
+  <circle cx="85" cy="130" r="3" fill="#8b5cf6" opacity="0.6"/>
+  <circle cx="115" cy="130" r="3" fill="#8b5cf6" opacity="0.6"/>
+  <!-- Connections between nodes -->
+  <line x1="80" y1="85" x2="100" y2="75" stroke="#ffffff" stroke-width="1" opacity="0.3"/>
+  <line x1="120" y1="85" x2="100" y2="75" stroke="#ffffff" stroke-width="1" opacity="0.3"/>
+  <line x1="80" y1="85" x2="90" y2="105" stroke="#ffffff" stroke-width="1" opacity="0.3"/>
+  <line x1="120" y1="85" x2="110" y2="105" stroke="#ffffff" stroke-width="1" opacity="0.3"/>
+  <line x1="90" y1="105" x2="110" y2="105" stroke="#ffffff" stroke-width="1" opacity="0.4"/>
+  <line x1="90" y1="105" x2="100" y2="125" stroke="#ffffff" stroke-width="1" opacity="0.3"/>
+  <line x1="110" y1="105" x2="100" y2="125" stroke="#ffffff" stroke-width="1" opacity="0.3"/>
+  <line x1="100" y1="125" x2="85" y2="130" stroke="#ffffff" stroke-width="1" opacity="0.2"/>
+  <line x1="100" y1="125" x2="115" y2="130" stroke="#ffffff" stroke-width="1" opacity="0.2"/>
+  <!-- Glow effect on center node -->
+  <circle cx="100" cy="105" r="8" fill="#8b5cf6" opacity="0.1"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="16" fill="#0f172a"/>
+  <!-- Outer coin ring -->
+  <circle cx="100" cy="100" r="52" fill="none" stroke="#a855f7" stroke-width="2.5"/>
+  <circle cx="100" cy="100" r="46" fill="none" stroke="#a855f7" stroke-width="1.5" opacity="0.5"/>
+  <!-- Coin fill -->
+  <circle cx="100" cy="100" r="44" fill="#a855f7" opacity="0.1"/>
+  <!-- 3D edge effect -->
+  <ellipse cx="100" cy="104" rx="52" ry="10" fill="none" stroke="#a855f7" stroke-width="1" opacity="0.2"/>
+  <!-- Star symbol -->
+  <polygon points="100,65 107,85 128,85 111,97 118,117 100,106 82,117 89,97 72,85 93,85" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="100,72 105,86 120,86 108,95 112,110 100,102 88,110 92,95 80,86 95,86" fill="#a855f7" opacity="0.3"/>
+  <!-- Center of star -->
+  <circle cx="100" cy="94" r="3" fill="#ffffff" opacity="0.8"/>
+  <!-- Sparkles around coin -->
+  <g opacity="0.5">
+    <line x1="160" y1="60" x2="165" y2="55" stroke="#a855f7" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="165" y1="60" x2="160" y2="55" stroke="#a855f7" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.4">
+    <line x1="40" y1="140" x2="45" y2="135" stroke="#a855f7" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="45" y1="140" x2="40" y2="135" stroke="#a855f7" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.3">
+    <line x1="155" y1="140" x2="160" y2="135" stroke="#a855f7" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="160" y1="140" x2="155" y2="135" stroke="#a855f7" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <!-- Small floating dots -->
+  <circle cx="45" cy="65" r="2" fill="#a855f7" opacity="0.3"/>
+  <circle cx="155" cy="100" r="1.5" fill="#a855f7" opacity="0.2"/>
+  <circle cx="50" cy="105" r="1.5" fill="#a855f7" opacity="0.2"/>
+</svg>

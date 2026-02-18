@@ -1,0 +1,317 @@
+/* ============================================
+   MANIFEST PAGE — Agent Economy Single-Page Blog
+   ============================================ */
+
+/* Page wrapper */
+.manifest-page {
+  background-color: #111111;
+  color: #d4d4d4;
+  min-height: 100vh;
+  font-family: 'Geist', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* ---- HERO ---- */
+.manifest-hero {
+  position: relative;
+  padding: 6rem 2rem 4rem;
+  text-align: center;
+  background: linear-gradient(180deg, #1a1a1a 0%, #111111 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  overflow: hidden;
+}
+
+.manifest-hero-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* Animated background layer */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.hero-char {
+  position: absolute;
+  font-family: 'Geist Mono', 'SF Mono', 'Fira Code', monospace;
+  font-size: 14px;
+  color: #3b82f6;
+  opacity: 0.04;
+  transform: translate(-50%, -50%);
+  transition: color 0.15s, text-shadow 0.15s, transform 0.2s;
+  user-select: none;
+  line-height: 1;
+}
+
+.manifest-hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #f5f5f5;
+  margin: 0 0 1.5rem;
+  letter-spacing: -0.03em;
+}
+
+.manifest-hero-subtitle {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #888888;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ---- SECTION NAV ---- */
+.manifest-nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(17, 17, 17, 0.88);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 0;
+}
+
+.manifest-nav-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 0 1rem;
+}
+
+.manifest-nav-inner::-webkit-scrollbar {
+  display: none;
+}
+
+.manifest-nav-link {
+  flex-shrink: 0;
+  padding: 0.85rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #666666;
+  text-decoration: none;
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.manifest-nav-link:hover {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+.manifest-nav-link.active {
+  color: #3b82f6;
+  border-bottom-color: #3b82f6;
+}
+
+/* ---- BODY — ROW-BASED TWO-COLUMN ---- */
+.manifest-body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem 6rem;
+}
+
+/* Each row pairs a paragraph (left) with an optional blurb (right) */
+.manifest-row {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 5rem;
+  align-items: start;
+}
+
+/* ---- LEFT — PARAGRAPH ---- */
+.manifest-section {
+  padding: 3rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  scroll-margin-top: 60px;
+}
+
+.manifest-row:last-child .manifest-section {
+  border-bottom: none;
+}
+
+.manifest-section-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #e5e5e5;
+  margin: 0 0 1.5rem;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.manifest-section-content {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #a3a3a3;
+}
+
+.manifest-section-content p {
+  margin: 0 0 1.25rem;
+}
+
+.manifest-section-content strong {
+  color: #e5e5e5;
+  font-weight: 600;
+}
+
+.manifest-section-content a {
+  color: #60a5fa;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s;
+}
+
+.manifest-section-content a:hover {
+  color: #93bbfd;
+}
+
+.manifest-section-content ul,
+.manifest-section-content ol {
+  padding-left: 1.5em;
+  margin: 0 0 1.25rem;
+}
+
+.manifest-section-content li {
+  margin-bottom: 0.5rem;
+  list-style-type: disc;
+  color: #a3a3a3;
+}
+
+.manifest-section-content li strong {
+  color: #d4d4d4;
+}
+
+.manifest-section-content code {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  color: #d4d4d4;
+  font-family: 'Geist Mono', 'SF Mono', 'Fira Code', monospace;
+}
+
+.manifest-section-content blockquote {
+  border-left: 3px solid #3b82f6;
+  padding: 0.75rem 1.25rem;
+  margin: 1.5rem 0;
+  background: rgba(59, 130, 246, 0.05);
+  color: #888888;
+  border-radius: 0 6px 6px 0;
+}
+
+.manifest-section-content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #d4d4d4;
+  margin: 2rem 0 0.75rem;
+}
+
+/* ---- RIGHT — BLURB (or empty space) ---- */
+.manifest-row-right {
+  padding-top: 3.5rem;
+  min-height: 1px;
+}
+
+.manifest-blurb {
+  background: linear-gradient(135deg, #1a1a1a 0%, #222222 100%);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: border-color 0.25s, transform 0.2s;
+}
+
+.manifest-blurb:hover {
+  border-color: rgba(59, 130, 246, 0.25);
+  transform: translateY(-2px);
+}
+
+.manifest-blurb-image-wrap {
+  width: 100%;
+  max-width: 240px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.manifest-blurb-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.manifest-blurb-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #e5e5e5;
+  margin: 0 0 0.6rem;
+  letter-spacing: -0.01em;
+}
+
+.manifest-blurb-content {
+  font-size: 0.82rem;
+  line-height: 1.65;
+  color: #888888;
+}
+
+.manifest-blurb-content p {
+  margin: 0;
+}
+
+.manifest-blurb-content strong {
+  color: #d4d4d4;
+  font-weight: 600;
+}
+
+/* ---- RESPONSIVE ---- */
+@media (max-width: 1024px) {
+  .manifest-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .manifest-row-right {
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+
+  .manifest-hero-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .manifest-hero {
+    padding: 4rem 1.25rem 2.5rem;
+  }
+
+  .manifest-hero-title {
+    font-size: 2rem;
+  }
+
+  .manifest-hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .manifest-body {
+    padding: 0 1.25rem 4rem;
+  }
+
+  .manifest-section-title {
+    font-size: 1.35rem;
+  }
+
+  .manifest-nav-link {
+    padding: 0.75rem 0.75rem;
+    font-size: 0.7rem;
+  }
+}

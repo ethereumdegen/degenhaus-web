@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="16" fill="#0f172a"/>
+  <!-- Shield -->
+  <path d="M100 30 L140 50 L140 100 C140 130 120 155 100 165 C80 155 60 130 60 100 L60 50 Z" fill="none" stroke="#3b82f6" stroke-width="3" opacity="0.3"/>
+  <path d="M100 42 L132 58 L132 98 C132 122 116 143 100 152 C84 143 68 122 68 98 L68 58 Z" fill="none" stroke="#3b82f6" stroke-width="2.5"/>
+  <!-- Key -->
+  <circle cx="100" cy="82" r="14" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+  <circle cx="100" cy="82" r="5" fill="#3b82f6"/>
+  <line x1="100" y1="96" x2="100" y2="128" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="100" y1="112" x2="112" y2="112" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="100" y1="122" x2="110" y2="122" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Accent dots -->
+  <circle cx="100" cy="50" r="2" fill="#3b82f6" opacity="0.6"/>
+  <circle cx="78" cy="60" r="1.5" fill="#3b82f6" opacity="0.4"/>
+  <circle cx="122" cy="60" r="1.5" fill="#3b82f6" opacity="0.4"/>
+</svg>

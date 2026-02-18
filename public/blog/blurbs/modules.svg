@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="16" fill="#0f172a"/>
+  <!-- Puzzle piece top-left -->
+  <g transform="translate(55, 55)">
+    <path d="M0 0 L30 0 L30 10 C30 10 25 10 25 16 C25 22 30 22 30 22 L30 35 L20 35 C20 35 20 40 14 40 C8 40 8 35 8 35 L0 35 Z" fill="#14b8a6" opacity="0.3" stroke="#14b8a6" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+  <!-- Puzzle piece top-right -->
+  <g transform="translate(100, 55)">
+    <path d="M0 0 L0 10 C0 10 5 10 5 16 C5 22 0 22 0 22 L0 35 L10 35 C10 35 10 40 16 40 C22 40 22 35 22 35 L35 35 L35 0 Z" fill="#14b8a6" opacity="0.5" stroke="#14b8a6" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+  <!-- Puzzle piece bottom-left -->
+  <g transform="translate(55, 105)">
+    <path d="M0 0 L8 0 C8 0 8 -5 14 -5 C20 -5 20 0 20 0 L30 0 L30 10 C30 10 25 10 25 16 C25 22 30 22 30 22 L30 35 L0 35 Z" fill="#14b8a6" opacity="0.7" stroke="#14b8a6" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+  <!-- Puzzle piece bottom-right -->
+  <g transform="translate(100, 105)">
+    <path d="M0 0 C0 0 5 0 5 -5 C5 -5 5 -5 5 -5" fill="none"/>
+    <path d="M0 0 L0 10 C0 10 5 10 5 16 C5 22 0 22 0 22 L0 35 L35 35 L35 0 L22 0 C22 0 22 -5 16 -5 C10 -5 10 0 10 0 Z" fill="#ffffff" opacity="0.15" stroke="#14b8a6" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+  <!-- Floating disconnected piece -->
+  <g transform="translate(148, 42) rotate(15)">
+    <path d="M0 0 L22 0 L22 8 C22 8 18 8 18 12 C18 16 22 16 22 16 L22 22 L0 22 Z" fill="#14b8a6" opacity="0.2" stroke="#14b8a6" stroke-width="1.5" stroke-linejoin="round" stroke-dasharray="3,3"/>
+  </g>
+  <!-- Motion lines for connecting -->
+  <line x1="146" y1="62" x2="140" y2="72" stroke="#14b8a6" stroke-width="1" opacity="0.3" stroke-linecap="round"/>
+  <line x1="152" y1="65" x2="145" y2="76" stroke="#14b8a6" stroke-width="1" opacity="0.2" stroke-linecap="round"/>
+  <!-- Corner accents -->
+  <circle cx="40" cy="72" r="2" fill="#14b8a6" opacity="0.4"/>
+  <circle cx="40" cy="128" r="2" fill="#14b8a6" opacity="0.4"/>
+</svg>

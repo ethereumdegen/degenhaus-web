@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="16" fill="#0f172a"/>
+  <!-- Central dollar circle -->
+  <circle cx="100" cy="100" r="30" fill="none" stroke="#10b981" stroke-width="2.5"/>
+  <circle cx="100" cy="100" r="24" fill="#10b981" opacity="0.15"/>
+  <!-- Dollar sign -->
+  <path d="M104 88 C104 85 102 83 98 83 C94 83 92 85 92 88 C92 92 104 93 104 100 C104 104 102 106 98 106 C94 106 92 104 92 100" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="98" y1="79" x2="98" y2="83" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <line x1="98" y1="106" x2="98" y2="110" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <!-- Arrows flowing right -->
+  <line x1="135" y1="100" x2="168" y2="100" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <polyline points="162,94 168,100 162,106" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Arrows flowing left -->
+  <line x1="32" y1="100" x2="65" y2="100" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <polyline points="38,94 32,100 38,106" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Arrows flowing up -->
+  <line x1="100" y1="32" x2="100" y2="65" stroke="#10b981" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <polyline points="94,38 100,32 106,38" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+  <!-- Arrows flowing down -->
+  <line x1="100" y1="135" x2="100" y2="168" stroke="#10b981" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <polyline points="94,162 100,168 106,162" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+  <!-- Corner dots -->
+  <circle cx="170" cy="100" r="3" fill="#10b981" opacity="0.6"/>
+  <circle cx="30" cy="100" r="3" fill="#10b981" opacity="0.6"/>
+  <circle cx="100" cy="30" r="3" fill="#10b981" opacity="0.4"/>
+  <circle cx="100" cy="170" r="3" fill="#10b981" opacity="0.4"/>
+</svg>
